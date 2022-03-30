@@ -81,7 +81,7 @@
                         </div>
                     </div>
                     <div class="col offset-md-1">
-
+                        <label for="">Feature</label>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="1" name="SeniorCitizen" id="SeniorCitizen">
                             <label class="form-check-label" for="SeniorCitizen">
@@ -157,60 +157,59 @@
                             </label>
                         </div>
 
-
-
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="1" id="PaperlessBilling" name="PaperlessBilling">
                             <label class="form-check-label" for="PaperlessBilling">
                                 Paperless Billing
                             </label>
                         </div>
-
+                    </div>
+                    <div class="col">
+                        <label for="">Internet Service</label>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="1" id="InternetService_DSL" name="InternetService_DSL">
+                            <input class="form-check-input" type="radio" value="dsl" checked id="InternetService_DSL" name="service">
                             <label class="form-check-label" for="InternetService_DSL">
                                 Internet Service DSL
                             </label>
                         </div>
-
-                    </div>
-                    <div class="col">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="1" id="InternetService_Fiber" name="InternetService_Fiber">
+                            <input class="form-check-input" type="radio" value="fiber" id="InternetService_Fiber" name="service">
                             <label class="form-check-label" for="InternetService_Fiber">
                                 Internet Service Fiber Optic
                             </label>
                         </div>
 
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="1" id="InternetService_No" name="InternetService_No">
+                            <input class="form-check-input" type="radio" value="no" id="InternetService_No" name="service">
                             <label class="form-check-label" for="InternetService_No">
                                 Internet Service No
                             </label>
                         </div>
-
+                        <br>
+                        <label for="">Payment Method</label>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="1" id="PaymentMethod_Bank" name="PaymentMethod_Bank">
+                            <input class="form-check-input" type="radio" value="bank" id="PaymentMethod_Bank" 
+                            checked name="payment">
                             <label class="form-check-label" for="PaymentMethod_Bank">
                                 Payment Method Bank Transfer
                             </label>
                         </div>
 
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="1" id="PaymentMethod_Credit" name="PaymentMethod_Credit">
+                            <input class="form-check-input" type="radio" value="credit" id="PaymentMethod_Credit" name="payment">
                             <label class="form-check-label" for="PaymentMethod_Credit">
                                 Payment Method Credit
                             </label>
                         </div>
 
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="1" id="PaymentMethod_Electronic" name="PaymentMethod_Electronic">
+                            <input class="form-check-input" type="radio" value="electronic" id="PaymentMethod_Electronic" name="payment">
                             <label class="form-check-label" for="PaymentMethod_Electronic">
                                 Payment Method Electronic
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="1" id="PaymentMethod_Mailed" name="PaymentMethod_Mailed">
+                            <input class="form-check-input" type="radio" value="mailed" id="PaymentMethod_Mailed" name="payment">
                             <label class="form-check-label" for="PaymentMethod_Mailed">
                                 Payment Method Mailed
                             </label>
